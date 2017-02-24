@@ -10,26 +10,11 @@
 <html>
   <head>
     <title>Getting Started Extension's Popup</title>
-    <style>
 
-    html, body { height: 100%;}
-
-    body {
-      background-color: #efefef;
-    }
-
-    h1 {
-      text-align: center;
-      display: flex;
-      justify-content: center; /* align horizontal */
-      align-items: center; /* align vertical */
-      height: 100%;
-
-      color: #333;
-      font-size: 100px;
-      font-family: ‘Palatino Linotype’, Charcoal, sans-serif;
-    }
-    </style>
+<!-- TODO: MINIFY -->
+    <!-- Stylesheets -->
+    <link href="node_modules/reset-css/reset.css" rel="stylesheet" type="text/css">
+    <link href="goodmind.css" rel="stylesheet" type="text/css">
 
     <!--
       - JavaScript and HTML must be in separate files: see our Content Security
@@ -38,8 +23,9 @@
       - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
      -->
 
-     <!-- External Vendor Scripts -->
+
      <!-- TODO: MINIFY -->
+     <!-- External Vendor Scripts -->
      <script src="node_modules/axios/dist/axios.min.js"></script>
 
      <!-- Our JS -->

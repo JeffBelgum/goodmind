@@ -17,7 +17,7 @@ axios.get('/data.json')
   .then(function (response) {
     var data = response.data
 
-    console.log(response.data);
+    console.log(data);
     console.log(data.messages);
 
     renderMessage(pickMessage(data.messages));

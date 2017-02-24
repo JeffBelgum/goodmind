@@ -4,6 +4,8 @@
   "description": "",
   "scripts": {},
   "dependencies": {
-    "axios": "^0.15.3"
+    "axios": "^0.15.3",
+    "normalize.css": "^5.0.0",
+    "reset-css": "^2.2.0"
   }
 }
