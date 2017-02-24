@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Good Mind",
+  "version": "1.0.0",
+
+  "chrome_url_overrides" : {
+        "newtab": "index.html"
+    },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["core.js"]
+    }
+  ]
+}
