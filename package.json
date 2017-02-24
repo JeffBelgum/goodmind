@@ -1,0 +1,9 @@
+{
+  "name": "goodmind",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "dependencies": {
+    "axios": "^0.15.3"
+  }
+}

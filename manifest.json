@@ -1,11 +1,13 @@
 {
   "manifest_version": 2,
   "name": "Good Mind",
+  "description": "This extension shows short, punchy inspirational messages when you open up a new tab in Chrome. It's easy to use - check it out!",
   "version": "1.0.0",
 
   "chrome_url_overrides" : {
-        "newtab": "index.html"
-    },
+    "newtab": "newtab.html"
+  },
+
 
   "content_scripts": [
     {
